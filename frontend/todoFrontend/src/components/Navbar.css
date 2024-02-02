@@ -1,0 +1,44 @@
+/* Navbar.css */
+.navbar {
+    background-color: #1f1e1e;
+    padding: 10px;
+    /* position: fixed; */
+    width: 100%;
+    margin-right: 20px;
+    top: 0;
+    /* z-index: 1000; */
+    /* display: flex;
+    flex-direction: column; */
+    margin-bottom: 20px;
+    margin-left: -10px;
+    /* margin-top: -190px; */
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin: 0;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .nav-item a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Adjust the content area to prevent it from being overlapped by the fixed navbar */
+  body {
+    margin-top: 50px; /* Adjust this value based on your navbar height */
+  }
+  

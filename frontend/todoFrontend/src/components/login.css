@@ -1,0 +1,64 @@
+/* LoginForm.css */
+
+.login-form {
+    max-width: 300px;
+    width: 280px;
+    margin: 0 auto;
+    height: 300px;
+    border: 1px solid #534d4d; /* Add border to the form */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    background: #181919;
+    border-radius: 5px; /* Add border-radius for rounded corners */
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .submit-button {
+    background-color: #8a9398; /* Change button background color */
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #6f767b; /* Change button color on hover */
+  }
+  
+
+  .btn{
+    display: flex;
+    flex-direction: column;
+  }
+  .change-button {
+    margin-top: 20px;
+    width: 280px;
+    background-color: #6f767b;
+    border: none;
+  }
+
+  .btn-div{
+    width: auto;
+  }
