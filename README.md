@@ -77,17 +77,6 @@ bash
 
     Open your browser and go to http://localhost:3000 to access the React app.
 
-API Endpoints
-
-    Create Todo:
-        Method: POST
-        Endpoint: /api/todos
-        Request Body: { "title": "Example Todo", "description": "Example description", "completed": false, "due_date": "2022-12-31" }
-
-    Get Todos:
-        Method: GET
-        Endpoint: /api/todos
-
 ...
 Notes
 
